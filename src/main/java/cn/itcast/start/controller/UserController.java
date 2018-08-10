@@ -38,7 +38,7 @@ public class UserController {
 	}
 	
 	/**
-	 * 需求：操作REDIS集群缓存
+	 * 需求：操作REDIS集群缓存，我在本地加了一行备注
 	 */
 	@RequestMapping("redis")
 	public String redisMap(Model model){
